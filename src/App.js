@@ -112,7 +112,7 @@ function App() {
                       (<button className="add-button" onClick={()=>removeFromCartFun(product.id)}>Remove from cart</button>)
                   :
                       (<button className="remove-button" onClick={()=>addToCartFun(product.id)}>Add to cart</button>)
-                  }
+                  } 
 
                 </div>
               })}
